@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link id="icon" rel="icon" href="images/favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Flying Unicorns</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a class="logo" href="index.html">
+                <img class="logoImg" src="images/logo.svg" alt="FlyingUnicornLogo">
+            </a>
+
+            <a id="hamburger" href="#">
+                <img id="hamburgerIcon" src="images/hamburger.svg" alt="hamburger menu">
+            </a>
+        </div>
+        <nav class="nav">
+            <a class="logo-nav" href="index.html">
+                <img src="images/favicon.svg" alt="logo navigation bar">
+            </a>
+            <div id="nav" class="no-display">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#faq">FAQ</a>
+                <a href="#play">How to Play</a>
+                <a href="moodboard.html">Moodboard</a>
+            </div>
+        </nav>
+
+        <div class="header">
+            <p>An interactive catching game that makes you feel at ease  </p>
+            <img class="headerlogo" src="images/logo.svg" alt="logo">
+            <a class="btn-arrow-down" href="#about">Read more</a>
+        </div>
+
+    </header>
+    
+<main>
+    <article data-aos="fade-up" id="about">
+        <div class="aboutcontainer">
+            <div>
+                <h1>
+                THIS IS FLYING UNICORNS
+                </h1>
+                <h2>
+                    The gameplay
+                </h2>
+                <p>
+                    The goal of the game is to catch all berries
+                    and flowers. You will earn 5 points for each flower
+                    you catch and one point per berry.
+                    You have to catch as many berries 
+                    and flowers as you can. When you miss one,
+                    it’s game over! Good luck!
+                </p>
+                <h2>
+                    How did it start?
+                </h2>
+                <p>
+                    My name is Senne Christiaens. I am in my first year of college and I am studying Interactive Multimedia Design at Thomas More in Mechelen. I mainly focus on front-end development.
+                    This is my final assignment for this semester where I had to make a game in p5js (JavaScript).
+                </p>
+                
+                <a class="btn" target="_blank" href="https://editor.p5js.org/SenneChristiaens/full/en7-ikT67">PLAY NOW</a>
+            </div>
+            <div class="img-unicorn">
+                <img id="unicorn" src="images/unicorn.jpg" alt="unicorn">
+            </div>
+        </div>
+        <video autoplay controls id="video" src="video.mp4" preload="auto"></video>
+    </article>
+</main>
+
+<section data-aos="fade-up" id="faq">
+        <div>
+            <div class="vak">
+                <img id="questionimg" src="/images/unicornquestion.png" alt="unicornquestion">
+            <h2>
+                Ask Us
+            </h2>
+                <p>
+                    Do you have any questions? Don't hesitate to contact us! <br> You can always fill in the form.
+                </p>
+                    <p>
+                        We will reply to you as soon as possible.
+                    </p>
+
+            <form class="layout" action="#">
+                <ul>
+                    <li class="formitems">
+                        <label for="voornaam">FIRSTNAME</label>
+                        <input id="voornaam" class="input" type="text">
+                    </li>
+    
+                     <li class="formitems">
+                        <label for="email">EMAIL</label>
+                        <input id="email" class="input" type="text">
+                    </li>
+                    <li class="formitems">
+                        <label for="bericht">YOUR QUESTION</label>
+                        <textarea name="bericht" id="bericht" cols="30" rows="10" maxlength="250"></textarea>
+                        <small id="bericht-help">
+                        <span>250</span> character(s) left</small>
+                        <input id="verzend" class="btn" value="SEND" type="submit">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</section>
+<h2>
+    HOW TO PLAY
+</h2>
+<section data-aos="fade-up" id="play">
+    <div class="box">
+        <img class="boxlogo" src="images/favicon.svg" alt="favicon">
+        <h2>
+            Unicorn
+        </h2>
+        <p>
+            This is the character which u will play with. You have to catch as many flowers and berries as you can. It has only one life so be careful!
+        </p>
+    </div>
+    <div class="box">
+      <img class="boxlogo" src="images/flower.svg" alt="flower">
+        <h2>
+            Flowers
+        </h2>
+        <p>
+            This is one of the items you can catch. This will give you 1 point. If this item touches the ground, it’s game over!
+        </p>
+    </div>
+    <div class="box">
+        <img class="boxlogo" src="images/berrie.svg" alt="berrie">
+        <h2>
+            Berries
+        </h2>
+        <p>
+            This is one of the items you can catch. This will give you 5 points. This item is a little bit smaller than the flower, so it's harder to catch! If this item touches the ground, it’s game over!
+        </p>
+    </div>
+</section>
+
+<footer>
+    <a class="logo" href="index.html">
+        <img src="images/logo.svg" alt="FlyingUnicornLogo">
+    </a>
+    <div class="socials">
+    <a href="https://www.facebook.com/Sennech/" target="_blank">
+        <img src="images/facebook.svg" alt="facebook">
+    </a>
+    <a href="https://www.instagram.com/senne_christiaens/" target="_blank">
+        <img src="images/instagram.svg" alt="instagram">
+    </a>
+    <a href="https://twitter.com/Sennech" target="_blank">
+        <img src="images/twitter.svg" alt="twitter">
+    </a>
+   </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+<script src="js/script.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
